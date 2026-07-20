@@ -7,7 +7,6 @@ phases:
 
     commands:
       - pip install -r requirements.txt
-
     build:
       commands:
         - python cover_failure_model.py
