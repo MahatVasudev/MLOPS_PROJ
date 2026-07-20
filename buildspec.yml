@@ -13,6 +13,6 @@ phases:
         - python cover_failure_model.py
 
 
-  artifacts:
-    files:
-      - logistic_reg.joblib
+artifacts:
+  files:
+    - logistic_reg.joblib
