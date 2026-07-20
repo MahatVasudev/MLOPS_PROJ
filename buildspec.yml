@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+
+    commands:
+      - pip install -r requirements.txt
+
+    build:
+      commands:
+        - python cover_failure_model.py
+
+
+  artifacts:
+    files:
+      - logistic_reg.joblib
