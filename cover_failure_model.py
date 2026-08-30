@@ -4,7 +4,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, roc_auc_score
 import json
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression(max_iter=10000)
 
 df = pd.read_csv('./data/Telecom_Tower_Failure_Dataset_10000-1.csv')
 
