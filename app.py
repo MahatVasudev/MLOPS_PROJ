@@ -21,4 +21,16 @@ def predict():
 
 app.run(debug=True, port=5123)
 
-
+"""
+BODY Text
+{
+        "Temperature_C": 10,
+        "Battery_Voltage": 10,
+        "Power_Consumption_W": 10,
+        "Signal_Strength_Percent": 10,
+        "Fan_Speed_RPM": 10,
+        "Humidity_Percent": 10,
+        "Traffic_Load": 10,
+        "Tower_Age_Years": 10
+}
+"""
